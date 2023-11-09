@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Italianno&family=Kenia&family=Libre+Baskerville&display=swap');
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 227, 227);
+}
+.website_name{
+    margin-top: 5px ;
+    padding:10px;
+    text-transform: uppercase;
+    border-top: 8px solid rgb(0, 250, 0);
+    border-left: 8px solid black;
+    border-right:8px solid rgb(255, 0, 0);
+    border-bottom: 8px solid rgb(0, 0, 255);
+    width: 274px;
+    background-color: rgb(180, 121, 121);
+}
+.title{
+    text-transform: uppercase;
+}
+.date{
+    margin: top 10px;
+    padding-left: 2px;
+    padding-right: 2px ;
+    font-style: italic;
+    background-color: bisque;
+    width: 180px;
+    border:solid #000;
+    display: flex;
+    justify-content: left;
+}
+.text1{
+    background-color: rgb(255, 0, 0);
+    border-top: 10px double  rgb(0, 250, 0);
+    border-left: 10px double  black;
+    border-right: 10px double  rgb(255, 107, 107);
+    padding: 5px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    outline: 5px solid rgb(81, 74, 74);
+    text-decoration: underline;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing:2px;
+    font-weight:normal;
+    
+    
+}
+.game_name{
+    text-align: center; 
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 15px!important;
+}
+.vedio{ 
+    width: 35rem;
+    height: 19.75rem; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #f0f0f0; 
+    border: 2px solid #000; 
+    position: relative; 
+}
+.highlight {
+    text-transform: uppercase;
+    background-color: rgb(255, 0, 0) ;
+}
+img{ 
+    width: 35rem;
+    height: 19.75rem; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid black;
+    position: relative;
+}
+.web{    
+    display: flex;
+    justify-content: center;
+}
+.date1{
+    display: flex;
+    justify-content: right;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    background-color:rgb(173, 150, 14); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: #ffffff; 
+    font-weight: bold;
+    text-transform: lowercase;
+    margin: 1px auto;
+    margin-top: 20px;
+}
+/*here im trying to learn how to type a comment on css its not like html when i type  <!--and type here--> or in python by typing #*/
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+.message{    
+    display: flex;
+    justify-content: center;
+    
+}
+.msg{
+    width: 500px; 
+    height: 100px;
+    padding: 100px; 
+    font-size: 15px;
+    font-style:italic;
+}
+label{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin: 20px ;
+    padding: 5px;
+}
+.name{
+    margin: 5px;
+    padding-top:8.5px ;
+    padding-right: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+
+}
+.kratos{
+    text-decoration: line-through;
+}
+.sss{
+    margin-bottom:  0px; 
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+h6{
+    font-size: 20px;
+    margin-bottom: 30px ;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    color: hsl(0, 0%, 0%)
+}
+a:visited{
+    color: rgb(0, 0, 255);
+}
+a:hover{
+    opacity: 0.7;
+}
+a:active{
+    color: red;
+}
